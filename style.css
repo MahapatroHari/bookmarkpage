@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Batman';
+    src: url('Batman.otf') format('opentype');
+}
+
+body {
+    background-color: red;
+    font-family: 'Batman', sans-serif; /* Fallback font */
+    font-style: italic;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
